@@ -1,0 +1,72 @@
+body {
+    
+    margin: 0;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+
+table {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+  
+form {
+    width: 30%; 
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #E855AD;
+}
+
+form fieldset {
+    border: 0;
+}
+
+form fieldset label {
+    font-weight: bold;
+    text-align: start;
+    display: block;
+    margin: 5px;
+    color: #ffffff;
+}
+
+form fieldset input, textarea {
+    width: 100%;
+    outline: none;
+}
+  
+tr:nth-child(even) td {
+    background-color: #E855AD(233, 229, 229, 0.504);
+    
+
+}
+
+.horario {
+    text-align: center;
+
+}
+
+.horario-tabela {
+    border: 1px solid #000000;
+    background-color: #E855AD;
+}
+
+td {
+    border: 1px solid #000000;
+}
+
+footer {
+
+    background-color: #E855AD;         /*rodape da pagina*/
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+
+
+@media only screen and (max-width: 606px) {
+    form {
+    width: 80%;
+}
+}

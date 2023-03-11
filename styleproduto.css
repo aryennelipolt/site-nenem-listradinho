@@ -1,0 +1,44 @@
+body {
+    
+    margin: 0;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vestuario {
+    display: inline-block;
+    margin: 50px;
+    background-color: rgba(233, 229, 229, 0.504);
+    box-shadow: 2px 3px 2px #888888;    
+}
+
+div.vestuario img {
+    width: 340px;
+    height: 320px;
+}
+
+div.vestuario p {
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+
+    background-color: #E855AD;         /*rodape da pagina*/
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+@media only screen and (max-width: 506px)  {
+    div.vestuario img {
+        width: 200px;
+        height: 170px;
+    }
+
+}

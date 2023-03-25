@@ -1,5 +1,4 @@
 body {
-    
     margin: 0;
     font-family: 'Roboto', 'sans-serif';
 }
@@ -28,8 +27,7 @@ div.vestuario p {
 }
 
 footer {
-
-    background-color: #E855AD;         /*rodape da pagina*/
+    background-color: #E855AD;         
     padding: 10px;
     text-align: center;
     color: #000000;

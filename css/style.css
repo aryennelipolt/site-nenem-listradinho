@@ -1,33 +1,26 @@
 body {
-    
     margin: 0;
     font-family: 'Roboto', 'sans-serif';
 }
 
 header {
-
     background-color: #E855AD;     /*container rosa cabeçalho*/
     padding: 20px;
     text-align: left;
-    
 }
 
 
 header img {
-
-    height: 150px;
-       
+    height: 150px;   
 }
 
 
 
 #menu {
-
     width: 100%;
     padding: 5px;
     margin-bottom: 30px;
-    text-align: right;
-    
+    text-align: right; 
 }
 
 header nav ul li {
@@ -35,7 +28,6 @@ header nav ul li {
     margin: 30px; 
     font-size: 20px;
     text-align: right;
-   
 }
 
 header nav ul li a {
@@ -43,12 +35,9 @@ header nav ul li a {
 }
 
 #menu nav {
-
     display: flex;
     width: 100%;
     justify-content: space-around;
-
-
 }
 
 
@@ -56,7 +45,6 @@ header nav ul li a {
     display: flex;
     flex-direction: row;
     margin: 50px;
-
 }
 
 
@@ -69,28 +57,12 @@ section.vestuario {
     width: 220px;
     height: 280px;
     flex-direction: row;
-    margin: auto;
-    
+    margin: auto;   
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
-
     background-color: #E855AD;
     padding: 10px;
     text-align: center;
     color: #000000;
 }
-
-

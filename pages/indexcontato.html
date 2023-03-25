@@ -5,53 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    <link rel="stylesheet" href="stylecontato.css">
-    <link rel="stylesheet" href="./stylehome.css">
+
+    <link rel="stylesheet" href="../css/stylehome.css">
+    <link rel="stylesheet" href="../css/stylecontato.css">
+    
 </head>
 
 
 <body>
 
-    <header>
-        <img id="logonenem" src="nenem.jpg" alt="imagem">
+  <header>
+    <img id="logonenem" src="../assets/nenem.jpg" alt="imagem">
         
-        <nav>
-            <ul>
-                <li><a href="index.html" class="buttom-menu">HOME</a></li>
-                <li><a href="indexproduto.html" class="buttom-menu">PRODUTOS</a></li>
-                <li><a href="indexcontato.html" class="buttom-menu">CONTATO</a></li>
-            </ul>
-        </nav>
+    <nav>
+      <ul>
+        <li><a href="../index.html" class="buttom-menu">HOME</a></li>
+        <li><a href="indexproduto.html" class="buttom-menu">PRODUTOS</a></li>
+        <li><a href="#" class="buttom-menu">CONTATO</a></li>
+      </ul>
+    </nav>
 
-    </header>
+  </header>
     
+  <form action="">
 
-    <form action="">
+    <h1>Contato:</h1>    
+    <fieldset>
+      <label for="input-nome">Nome</label>
+      <input type="text" name="input-nome" id="input-nome" required minlength="2">
+    </fieldset>
 
-      <h1>Contato:</h1>    
-      <fieldset>
-          <label for="input-nome">Nome</label>
-          <input type="text" name="input-nome" id="input-nome">
-      </fieldset>
+    <fieldset>
+      <label for="input-email">E-mail</label>
+      <input type="email" name="input-email" id="input-email" required>
+    </fieldset>
 
-      <fieldset>
-          <label for="input-email">E-mail</label>
-          <input type="email" name="input-email" id="input-email">
-      </fieldset>
+    <fieldset>
+      <label for="input-tel">Telefone</label>
+      <input type="tel" name="input-tel" id="input-tel" placeholder="(81) xxxxx-xxxx" required pattern="^\(\d{2\}) \d{5}-\{4}$" maxlength="15">
+    </fieldset>
 
-      <fieldset>
-          <label for="input-tel">Telefone</label>
-          <input type="tel" name="input-tel" id="input-tel">
-      </fieldset>
+    <fieldset>
+      <label for="input-msg">Mensagem</label>
+      <textarea name="input-msg" id="input-msg" cols="30" rows="10"></textarea>
+    </fieldset>
 
-      <fieldset>
-          <label for="input-msg">Mensagem</label>
-          <textarea name="input-msg" id="input-msg" cols="30" rows="10"></textarea>
-      </fieldset>
-
-      <center>
-      <input type="submit" value="ENVIAR" class="button">    
-      </center>
+    <center>
+      <input type="submit" value="ENVIAR" class="button" onclick="enviarFormulario()">    
+    </center>
       
     </form>
 
@@ -107,17 +108,11 @@
     
         </div>
 
-
-        
-        
-
-
-
-
     <footer>
-        <h3>Neném Listradinho/ Direitos autorais</h3>
+      <h3>Neném Listradinho/ Direitos autorais</h3>
     </footer>
     
+    <script src="../scripts/script.js"></script>
     
 </body>
 </html>

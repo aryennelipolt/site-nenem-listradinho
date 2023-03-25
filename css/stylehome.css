@@ -1,5 +1,4 @@
 body {
-    
     margin: 0;
     font-family: 'Roboto', 'sans-serif';
     width: 100%;
@@ -9,13 +8,11 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #E855AD;           /*container rosa cabeçalho*/  
+    background-color: #E855AD;            
     text-align: center;
     justify-content: space-between;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;   
 }
-
 
 header img {
     height: 250px;
@@ -28,12 +25,10 @@ nav ul {
 
 
 #menu {
-
-    width: 100%;                      /*ajustar o menu de texto*/
+    width: 100%;                      
     padding: 5px;
     margin-bottom: 30px;
-    text-align: right;
-    
+    text-align: right; 
 }
 
 header nav ul li {
@@ -41,8 +36,6 @@ header nav ul li {
     margin: 30px; 
     font-size: 20px;
     text-align: right;
-
-   
 }
 
 header nav ul li a {
@@ -77,12 +70,10 @@ div.video {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 footer {
-
-    background-color: #E855AD;         /*rodape da pagina*/
+    background-color: #E855AD;         
     padding: 10px;
     text-align: center;
     color: #000000;
@@ -124,7 +115,3 @@ footer {
     }
 
 }
-
-
-
-
